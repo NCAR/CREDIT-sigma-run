@@ -1,3 +1,6 @@
+data_preprocessing/scripts/
+physics/scripts/
+verification/scripts/
 data_preprocessing/qsub*
 data_preprocessing/*.csv
 *.yml
