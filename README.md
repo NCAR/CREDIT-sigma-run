@@ -45,7 +45,7 @@ can support the development of AIWP models.
 
 ## Citation
 
-Sha, Y., J. Schreck, W. Chapman, D. J. Gagne II, 2025: Investigating the contribution of terrain-following coordinates and conservation schemes in AI-driven precipitation forecasts. In review: Geophysical Research Letters. Pre-print: \url{https://arxiv.org/abs/2503.00332}
+Sha, Y., J. Schreck, W. Chapman, D. J. Gagne II, 2025: Investigating the contribution of terrain-following coordinates and conservation schemes in AI-driven precipitation forecasts. In review: Geophysical Research Letters. Pre-print: https://arxiv.org/abs/2503.00332
 
 ```
 @article{sha2025investigating,
