@@ -6,10 +6,10 @@ NSF National Center for Atmospheric Research, Boulder, Colorado, USA
 
 ## Abstract
 
-Artificial Intelligence (AI) weather prediction (AIWP) models often produce ``blurry'' precipitation forecasts that overestimate drizzles 
+Artificial Intelligence (AI) weather prediction (AIWP) models often produce "blurry" precipitation forecasts that overestimate drizzles 
 and underestimate extremes. This study provides a novel solution to tackle this problem---integrating terrain-following coordinates with 
 global mass and energy conservation schemes into AIWP models. Forecast experiments are conducted to evaluate the effectiveness of this 
-solution using FuXi, an example AIWP model, adapted to 1.0$^\circ$ grid spacing data. Verification results show large performance gains. 
+solution using FuXi, an example AIWP model, adapted to 1.0-degree grid spacing data. Verification results show large performance gains. 
 The conservation schemes are found to reduce drizzle bias, whereas using terrain-following coordinates improves the estimation of extreme 
 events and precipitation intensity spectra. Furthermore, a case study revealed that terrain-following coordinates capture near-surface 
 winds better over mountains, offering AIWP models more accurate information on understanding the dynamics of precipitation processes. 
@@ -36,6 +36,24 @@ can support the development of AIWP models.
 * Derivations of conservation schemes: [Pytorch integration](https://github.com/yingkaisha/CREDIT-sigma-run/blob/main/physics/DEV00_pytorch_model_level_physcis.ipynb)
 * Results: [TS and SEEPS](https://github.com/yingkaisha/CREDIT-sigma-run/blob/main/visualization/FIG02_TS_SEEPS.ipynb), [quantile-based verification](https://github.com/yingkaisha/CREDIT-sigma-run/blob/main/visualization/FIG03_Histogram.ipynb), [case study](https://github.com/yingkaisha/CREDIT-sigma-run/blob/main/visualization/FIG04_example.ipynb)
 
-## Contact
+## Model weights
+
+| Model name | Weights | Notes |
+|------------|---------|-------|
+| FuXi-sigma-base  | [link](https://huggingface.co/yingkaisha/FuXi-sigma-1deg/tree/main/FuXi-sigma-base) | The 1.0 degree FuXi baseline without conservation schemes |
+| FuXi-sigma-physics | [link](https://huggingface.co/yingkaisha/FuXi-sigma-1deg/tree/main/FuXi-sigma-physics) | The 1.0 degree FuXi run with conservation schemes |
+
+## Citation
+
+Sha, Y., J. Schreck, W. Chapman, D. J. Gagne II, 2025: Investigating the contribution of terrain-following coordinates and conservation schemes in AI-driven precipitation forecasts. In review: Geophysical Research Letters. Pre-print: https://arxiv.org/abs/2503.00332
+
+```
+@article{sha2025investigating,
+  title={Investigating the contribution of terrain-following coordinates and conservation schemes in AI-driven precipitation forecasts},
+  author={Sha, Yingkai and Schreck, John S and Chapman, William and Gagne II, David John},
+  journal={arXiv preprint arXiv:2503.00332},
+  year={2025}
+}
+```
 
 
