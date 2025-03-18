@@ -6,10 +6,10 @@ NSF National Center for Atmospheric Research, Boulder, Colorado, USA
 
 ## Abstract
 
-Artificial Intelligence (AI) weather prediction (AIWP) models often produce ``blurry'' precipitation forecasts that overestimate drizzles 
+Artificial Intelligence (AI) weather prediction (AIWP) models often produce "blurry" precipitation forecasts that overestimate drizzles 
 and underestimate extremes. This study provides a novel solution to tackle this problem---integrating terrain-following coordinates with 
 global mass and energy conservation schemes into AIWP models. Forecast experiments are conducted to evaluate the effectiveness of this 
-solution using FuXi, an example AIWP model, adapted to 1.0$^\circ$ grid spacing data. Verification results show large performance gains. 
+solution using FuXi, an example AIWP model, adapted to 1.0-degree grid spacing data. Verification results show large performance gains. 
 The conservation schemes are found to reduce drizzle bias, whereas using terrain-following coordinates improves the estimation of extreme 
 events and precipitation intensity spectra. Furthermore, a case study revealed that terrain-following coordinates capture near-surface 
 winds better over mountains, offering AIWP models more accurate information on understanding the dynamics of precipitation processes. 
